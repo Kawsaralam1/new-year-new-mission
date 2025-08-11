@@ -21,7 +21,6 @@ body{
     background-repeat: no-repeat;
     background-color:rgba(0,0,0,0.5);
     background-blend-mode: overlay;
-    border:2px solid red;
 }
 
 .banner-content{
@@ -51,5 +50,38 @@ body{
     width: 802.9px;
     height: 806px;
     margin:0 auto;
-    border:2px solid red;
+    margin-top:100px;
+}
+.second-section-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+
+}
+.second-section-content h1{
+    color: rgba(255, 0, 0, 1);
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 600;
+}
+.second-section-content p{
+    color: rgba(255, 0, 0, 1);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+..second-section-content h3{
+    color: rgba(7, 2, 17, 1);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 600;
+}
+.image-container{
+    width: 802.9px;
+    height: 500px;
+}
+.image-container img{
+    width:100%;
+    height:100%;
 }
